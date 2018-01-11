@@ -5,6 +5,7 @@ setup(name='spidetest',
       description='OpenShift App',
       author='Your Name',
       author_email='example@example.com',
-      url='http://www.python.org/sigs/distutils-sig/',packages=find_packages(),
+      url='http://www.python.org/sigs/distutils-sig/',
+      packages=find_packages(),
       install_requires=['flask>=0.10.1','bs4'],
      )
